@@ -11,10 +11,10 @@ class String
   end
 
   def exclamation?
-  end_with?("!")
+    end_with?("!")
   end
 
   def count_sentences
-
+    split(/[.!?]/).length
   end
 end
